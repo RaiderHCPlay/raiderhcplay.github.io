@@ -1,0 +1,66 @@
+#root {
+    background-color: magenta;
+}
+
+#tab {
+    background-color: black;
+}
+
+#avatar-image {
+    border-radius: 50%;
+    float: left;
+    margin-left: 200px;
+}
+
+#name {
+    margin-left: 550px;
+    padding-top: 90px;
+    padding-left: 30px;
+    font-size: 50px;
+    font-family: Serif;
+}
+
+#profession {
+    margin-left: 500px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.javascript {
+    color: #f7df1e;
+}
+
+.typescript {
+    color: #3178C6;
+}
+
+.lightGreen {
+    color: lightgreen;
+}
+
+.darkBlue {
+    color: darkblue;
+}
+
+.aboutMe {
+    color: #f7df1e;
+    padding-top: 110px;
+    padding-left: 505px;
+    font-size: 60px;
+}
+
+a:link {
+    color: darkblue;
+}
+
+a:visited {
+    color:darkblue;
+}
+a:hover {
+    color:aqua;
+}
+
+#githubLink {
+    font-size: 28px;
+    padding-left: 635px;
+}
