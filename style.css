@@ -1,9 +1,25 @@
 #root, #top-level, #about, body, #head-bar {
-    background-color: magenta;
+    background-color: darkblue;
     border: none;
     margin: 0;
     padding: 0;
+    zoom: 1;
+    transform: scale(1);
 }
+
+/*@media (min-width: 768px) {*/
+/*    body {*/
+/*        font-size: 18px;*/
+/*        background-color: #fff;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 1024px) {*/
+/*    body {*/
+/*        font-size: 20px;*/
+/*        background-color: #eee;*/
+/*    }*/
+/*}*/
 
 #head-bar {
     background-color: black;
@@ -49,23 +65,16 @@
     color: lightgreen;
 }
 
-.darkBlue {
-    color: darkblue;
-}
-
-.aboutMe {
-    color: #f7df1e;
-    padding-top: 110px;
-    padding-left: 505px;
-    font-size: 60px;
+.white {
+    color: white;
 }
 
 a:link {
-    color: darkblue;
+    color: aqua;
 }
 
 a:visited {
-    color:darkblue;
+    color:aqua;
 }
 a:hover {
     color:aqua;
