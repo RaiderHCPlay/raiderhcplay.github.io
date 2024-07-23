@@ -8,8 +8,21 @@
 }
 
 .centering {
-    margin: auto;
-    width: 50%;
+    text-align: center;
+}
+
+.topText {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+#avatar-image {
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: -450px;
+    margin-top: 70px;
 }
 
 #head-bar {
@@ -22,12 +35,6 @@
 
 #tab {
     background-color: black;
-}
-
-#avatar-image {
-    border-radius: 50%;
-    float: left;
-    margin-left: 200px;
 }
 
 #name {
