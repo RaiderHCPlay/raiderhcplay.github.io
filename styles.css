@@ -47,7 +47,7 @@
 
 #profession {
     margin-left: 500px;
-    padding-left: 10px;
+    padding-left: 75px;
     font-size: 30px;
 }
 
@@ -80,5 +80,5 @@ a:hover {
 
 #githubLink {
     font-size: 28px;
-    padding-left: 635px;
+    padding-left: 575px;
 }
