@@ -12,7 +12,6 @@ export default function Home() {
                       <Image
                           width="10"
                           height="10"
-                          // layout="responsive"
                           className="border rounded-full mt-10 w-64 h-64 sm:w-32 sm:h-32 md:w-64 md:h-64 lg:w-80 lg:h-80"
                           alt="avatar"
                           src="https://avatars.githubusercontent.com/u/170134946?v=4"
