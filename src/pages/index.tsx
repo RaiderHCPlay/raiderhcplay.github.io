@@ -13,30 +13,30 @@ export default function Home() {
                           width="10"
                           height="10"
                           // layout="responsive"
-                          className="border rounded-full mt-10 w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 lg:w-80 lg:h-80"
+                          className="border rounded-full mt-10 w-24 h-24 sm:w-64 sm:h-64 md:w-48 md:h-48 lg:w-80 lg:h-80"
                           alt="avatar"
                           src="https://avatars.githubusercontent.com/u/170134946?v=4"
                       />
                   </a>
                   <strong>
-                      <h1 className={"text-orange-400 sm:text-4xl md:text-4xl lg:text-8xl"}>
+                      <h1 className={"text-orange-400 sm:text-2xl md:text-4xl lg:text-8xl"}>
                           Paweł Fabrycki
                       </h1>
                   </strong>
-                  <h2 className={"text-orange-400 sm:text-4xl md:text-4xl lg:text-3xl"}>(also known as <strong>RaiderHCPlay</strong>)</h2>
+                  <h2 className={"text-orange-400 sm:text-2xl md:text-4xl lg:text-3xl"}>(also known as <strong>RaiderHCPlay</strong>)</h2>
                   <strong>
-                      <h2 className={"sm:text-4xl md:text-4xl lg:text-7xl text-typescript"}>
+                      <h2 className={"sm:text-2xl md:text-4xl lg:text-7xl text-typescript"}>
                           <span>TypeScript </span><span>Developer</span>
                       </h2>
                   </strong>
                   <strong className={"mt-4"}>
-                      <a className={"text-purple-600 sm:text-4xl md:text-4xl lg:text-4xl"}
+                      <a className={"text-purple-600 sm:text-2xl md:text-4xl lg:text-4xl"}
                          href="https://github.com/RaiderHCPlay">
                           <h2 id="githubLink">GitHub Profile Link</h2>
                       </a>
                   </strong>
                   <strong className={"mt-2"}>
-                      <a className={"text-green-600 sm:text-4xl md:text-4xl lg:text-4xl"}
+                      <a className={"text-green-600 sm:text-2xl md:text-4xl lg:text-4xl"}
                          href="https://github.com/RaiderHCPlay/raiderhcplay.github.io">
                           <h2 id="githubLink">Page Source Code</h2>
                       </a>
