@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
       <>
-          <h2 className={"flex justify-center bg-black text-white sm:text-xl md:text-2xl lg:text-7xl"}>
+          <h2 className={"flex justify-center bg-black text-white text-2xl sm:text-xl md:text-2xl lg:text-7xl"}>
               RaiderHCPlay's GitHub IO
           </h2>
           <div className={"flex justify-center"}>
