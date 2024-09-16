@@ -19,24 +19,24 @@ export default function Home() {
                       />
                   </a>
                   <strong>
-                      <h1 className={"text-orange-400 sm:text-2xl md:text-4xl lg:text-8xl"}>
+                      <h1 className={"text-orange-400 sm:text-4xl md:text-4xl lg:text-8xl"}>
                           Paweł Fabrycki
                       </h1>
                   </strong>
-                  <h2 className={"text-orange-400 sm:text-2xl md:text-4xl lg:text-3xl"}>(also known as <strong>RaiderHCPlay</strong>)</h2>
+                  <h2 className={"text-orange-400 sm:text-4xl md:text-4xl lg:text-3xl"}>(also known as <strong>RaiderHCPlay</strong>)</h2>
                   <strong>
-                      <h2 className={"sm:text-2xl md:text-4xl lg:text-7xl text-typescript"}>
+                      <h2 className={"sm:text-4xl md:text-4xl lg:text-7xl text-typescript"}>
                           <span>TypeScript </span><span>Developer</span>
                       </h2>
                   </strong>
                   <strong className={"mt-4"}>
-                      <a className={"text-purple-600 sm:text-2xl md:text-4xl lg:text-4xl"}
+                      <a className={"text-purple-600 sm:text-4xl md:text-4xl lg:text-4xl"}
                          href="https://github.com/RaiderHCPlay">
                           <h2 id="githubLink">GitHub Profile Link</h2>
                       </a>
                   </strong>
                   <strong className={"mt-2"}>
-                      <a className={"text-green-600 sm:text-2xl md:text-4xl lg:text-4xl"}
+                      <a className={"text-green-600 sm:text-4xl md:text-4xl lg:text-4xl"}
                          href="https://github.com/RaiderHCPlay/raiderhcplay.github.io">
                           <h2 id="githubLink">Page Source Code</h2>
                       </a>
