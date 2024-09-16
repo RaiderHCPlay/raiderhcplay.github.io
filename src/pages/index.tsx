@@ -6,8 +6,8 @@ export default function Home() {
       <h2 className={"flex justify-center bg-black text-white text-3xl sm:text-xl md:text-2xl lg:text-7xl"}>RaiderHCPlay's GitHub IO</h2>
       <div className={"flex justify-center"}>
           <a href={"https://github.com/RaiderHCPlay"}><Image
-              width="100"
-              height="100"
+              width="260"
+              height="260"
               layout="responsive"
               className="border rounded-full mt-20"
               alt="avatar"
