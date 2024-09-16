@@ -3,8 +3,8 @@ import Image from "next/image";
 export default function Home() {
   return (
       <>
-      <h2 className={"flex justify-center bg-black text-white text-6xl"}>RaiderHCPlay's GitHub IO</h2>
-      <div className={"flex justify-center "}>
+      <h2 className={"flex justify-center bg-black text-white text-3xl sm:text-xl md:text-2xl lg:text-7xl"}>RaiderHCPlay's GitHub IO</h2>
+      <div className={"flex justify-center"}>
           <a href={"https://github.com/RaiderHCPlay"}><Image className={"border rounded-full mt-20"} alt="avatar"
                     src="https://avatars.githubusercontent.com/u/170134946?v=4" width="260" height="260"/></a>
           <div className={"flex flex-col items-center pl-16 pt-14"}>
