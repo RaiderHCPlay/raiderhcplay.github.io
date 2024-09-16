@@ -8,7 +8,7 @@ export default function Home() {
           </h2>
           <div className={"flex justify-center"}>
               <div className={"flex flex-col items-center"}>
-                  <a href={"https://github.com/RaiderHCPlay"}>
+                  <a href={"https://github.com/RaiderHCPlay"} target={"_blank"}>
                       <Image
                           width="64"
                           height="64"
@@ -30,13 +30,15 @@ export default function Home() {
                   </strong>
                   <strong className={"mt-4"}>
                       <a className={"text-purple-600 text-2xl sm:text-2xl md:text-4xl lg:text-4xl"}
-                         href="https://github.com/RaiderHCPlay">
+                         href="https://github.com/RaiderHCPlay"
+                         target={"_blank"}>
                           <h2 id="githubLink">GitHub Profile Link</h2>
                       </a>
                   </strong>
                   <strong className={"mt-2"}>
                       <a className={"text-green-600 text-2xl sm:text-2xl md:text-4xl lg:text-4xl"}
-                         href="https://github.com/RaiderHCPlay/raiderhcplay.github.io">
+                         href="https://github.com/RaiderHCPlay/raiderhcplay.github.io"
+                         target={"_blank"}>
                           <h2 id="githubLink">Page Source Code</h2>
                       </a>
                   </strong>
