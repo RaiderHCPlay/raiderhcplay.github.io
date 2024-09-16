@@ -14,13 +14,13 @@ export default function Home() {
           {/*    src="https://avatars.githubusercontent.com/u/170134946?v=4"*/}
           {/*/></a>*/}
           <div className={"flex flex-col items-center pl-16 pt-14"}>
-              <h1 className={"text-orange-400 text-8xl sm:text-6xl md:text-7xl lg:text-8xl"}>RaiderHCPlay</h1>
-              <strong><h2 className={"text-5xl sm:text-3xl md:text-4xl lg:text-5xl pt-4 text-typescript"}><span>TypeScript </span><span>Developer</span>
+              <h1 className={"text-orange-400 text-8xl sm:text-4xl md:text-6xl lg:text-8xl"}>RaiderHCPlay</h1>
+              <strong><h2 className={"text-5xl sm:text-2xl md:text-3xl lg:text-5xl pt-4 text-typescript"}><span>TypeScript </span><span>Developer</span>
               </h2></strong>
-              <strong className={"mt-5"}><a className={"text-purple-600 text-4xl sm:text-2xl md:text-3xl lg:text-4xl"}
+              <strong className={"mt-5"}><a className={"text-purple-600 text-4xl sm:text-xl md:text-2xl lg:text-4xl"}
                                             href="https://github.com/RaiderHCPlay"><h2 id="githubLink">GitHub Profile
                   Link</h2></a></strong>
-              <strong className={"mt-5"}><a className={"text-green-600 text-4xl sm:text-2xl md:text-3xl lg:text-4xl"}
+              <strong className={"mt-5"}><a className={"text-green-600 text-4xl sm:text-xl md:text-2xl lg:text-4xl"}
                                             href="https://github.com/RaiderHCPlay/raiderhcplay.github.io">
                   <h2 id="githubLink">Page Source Code</h2></a></strong>
           </div>
