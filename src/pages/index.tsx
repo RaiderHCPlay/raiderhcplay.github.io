@@ -13,13 +13,13 @@ export default function Home() {
                           width="10"
                           height="10"
                           // layout="responsive"
-                          className="border rounded-full mt-10 sm:w-32 sm:h-32 md:w-64 md:h-64 lg:w-80 lg:h-80"
+                          className="border rounded-full mt-10 sm:w-80 sm:h-80 md:w-64 md:h-64 lg:w-80 lg:h-80"
                           alt="avatar"
                           src="https://avatars.githubusercontent.com/u/170134946?v=4"
                       />
                   </a>
                   <strong>
-                      <h1 className={"text-orange-400 sm:text-2xl md:text-4xl lg:text-8xl"}>
+                      <h1 className={"text-orange-400 sm:text-6xl md:text-4xl lg:text-8xl"}>
                           Paweł Fabrycki
                       </h1>
                   </strong>
