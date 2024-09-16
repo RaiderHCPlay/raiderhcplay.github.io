@@ -20,9 +20,10 @@ export default function Home() {
                   </a>
                   <strong>
                       <h1 className={"text-orange-400 sm:text-xl md:text-2xl lg:text-8xl"}>
-                          RaiderHCPlay
+                          Paweł Fabrycki
                       </h1>
                   </strong>
+                  <h2 className={"text-orange-400 sm:text-xl md:text-2xl lg:text-3xl"}>(also known as <strong>RaiderHCPlay</strong>)</h2>
                   <strong>
                       <h2 className={"sm:text-xl md:text-2xl lg:text-7xl text-typescript"}>
                           <span>TypeScript </span><span>Developer</span>
