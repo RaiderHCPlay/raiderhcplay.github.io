@@ -10,10 +10,10 @@ export default function Home() {
               <div className={"flex flex-col items-center"}>
                   <a href={"https://github.com/RaiderHCPlay"}>
                       <Image
-                          width="100"
-                          height="100"
-                          layout="responsive"
-                          className="border rounded-full mt-10 w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 lg:w-64 lg:h-64"
+                          width="10"
+                          height="10"
+                          // layout="responsive"
+                          className="border rounded-full mt-10 w-24 h-24 sm:w-32 sm:h-32 md:w-48 md:h-48 lg:w-80 lg:h-80"
                           alt="avatar"
                           src="https://avatars.githubusercontent.com/u/170134946?v=4"
                       />
