@@ -13,6 +13,7 @@ export default function Home() {
                       <Image
                           width="64"
                           height="64"
+                          layout="responsive"
                           className="border rounded-full mt-10 sm:w-32 sm:h-32 md:w-64 md:h-64 lg:w-80 lg:h-80"
                           alt="avatar"
                           src="https://avatars.githubusercontent.com/u/170134946?v=4"
@@ -23,7 +24,7 @@ export default function Home() {
                           Paweł Fabrycki
                       </h1>
                   </strong>
-                  <h2 className={"text-orange-400 text-xl sm:text-xl md:text-2xl lg:text-3xl"}>(also known as <strong>RaiderHCPlay</strong>)</h2>
+                  <h2 className={"text-orange-400 text-xl sm:text-xl md:text-2xl lg:text-3xl mt-2"}>(also known as <strong>RaiderHCPlay</strong>)</h2>
                   <strong>
                       <h2 className={"text-2xl sm:text-2xl md:text-4xl lg:text-7xl text-typescript"}>
                           <span>TypeScript </span><span>Programmer</span>
