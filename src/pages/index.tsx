@@ -1,10 +1,11 @@
 import Image from "next/image";
 
+
 export default function Home() {
   return (
       <>
           <h2 className={"flex justify-center bg-black text-white text-2xl sm:text-xl md:text-2xl lg:text-7xl"}>
-              RaiderHCPlay's GitHub IO
+              RaiderHCPlay's Website
           </h2>
           <div className={"flex justify-center"}>
               <div className={"flex flex-col items-center"}>
@@ -25,7 +26,7 @@ export default function Home() {
                   <h2 className={"text-orange-400 text-xl sm:text-xl md:text-2xl lg:text-3xl"}>(also known as <strong>RaiderHCPlay</strong>)</h2>
                   <strong>
                       <h2 className={"text-2xl sm:text-2xl md:text-4xl lg:text-7xl text-typescript"}>
-                          <span>TypeScript </span><span>Developer</span>
+                          <span>TypeScript </span><span>Programmer</span>
                       </h2>
                   </strong>
                   <strong className={"mt-4"}>
