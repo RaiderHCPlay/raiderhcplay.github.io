@@ -13,7 +13,7 @@ export default function Home() {
           {/*    alt="avatar"*/}
           {/*    src="https://avatars.githubusercontent.com/u/170134946?v=4"*/}
           {/*/></a>*/}
-          <div className={"flex flex-col items-center pl-16 pt-14"}>
+          <div className={"flex flex-col items-center pl-16 pt-14 w-auto h-auto"}>
               <h1 className={"text-orange-400 text-8xl sm:text-xl md:text-xl lg:text-8xl"}>RaiderHCPlay</h1>
               <strong><h2 className={"text-5xl sm:text-xl md:text-2xl lg:text-5xl pt-4 text-typescript"}><span>TypeScript </span><span>Developer</span>
               </h2></strong>
