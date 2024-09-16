@@ -11,8 +11,8 @@ export default function Home() {
               <div className={"flex flex-col items-center"}>
                   <a href={"https://github.com/RaiderHCPlay"} target={"_blank"}>
                       <Image
-                          width="64"
-                          height="64"
+                          width="100"
+                          height="100"
                           className="border rounded-full mt-10 sm:w-32 sm:h-32 md:w-64 md:h-64 lg:w-80 lg:h-80"
                           alt="avatar"
                           src="https://avatars.githubusercontent.com/u/170134946?v=4"
