@@ -48,9 +48,8 @@ export default function Home() {
           </div>
           <div className={"flex justify-center absolute bottom-0 left-0 right-0 p-4"}>
               <h2 className={"text-xl sm:text-xl md:text-2xl lg:text-3xl"}>This page is under <a
-                      className={"text-decoration-line: underline visited:text-red-600 hover:text-orange-400 active:text-blue-600"}
-                     href={"https://www.gnu.org/licenses/gpl-3.0.html"} target={"_blank"}>GPL-3.0
-                  License</a></h2>
+                  className={"text-decoration-line: underline visited:text-red-600 hover:text-orange-400 active:text-blue-600"}
+                  href={"https://www.gnu.org/licenses/gpl-3.0.html"} target={"_blank"}>GPL-3.0 License</a></h2>
           </div>
 
       </>
