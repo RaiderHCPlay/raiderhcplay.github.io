@@ -24,19 +24,19 @@ export default function Home() {
                       </h1>
                   </strong>
                   <h2 className={"text-orange-400 text-xl sm:text-xl md:text-2xl lg:text-3xl mt-2"}>(also known as <strong>RaiderHCPlay</strong>)</h2>
-                  <strong>
+                  <strong className={"mt-2"}>
                       <h2 className={"text-2xl sm:text-2xl md:text-4xl lg:text-7xl text-typescript"}>
                           <span>TypeScript </span><span>Programmer</span>
                       </h2>
                   </strong>
-                  <strong className={"mt-4"}>
+                  <strong className={"mt-5"}>
                       <a className={"text-purple-600 text-2xl sm:text-2xl md:text-4xl lg:text-4xl"}
                          href="https://github.com/RaiderHCPlay"
                          target={"_blank"}>
                           <h2 id="githubLink">GitHub Profile Link</h2>
                       </a>
                   </strong>
-                  <strong className={"mt-2"}>
+                  <strong className={"mt-3"}>
                       <a className={"text-green-600 text-2xl sm:text-2xl md:text-4xl lg:text-4xl"}
                          href="https://github.com/RaiderHCPlay/raiderhcplay.github.io"
                          target={"_blank"}>
