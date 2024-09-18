@@ -98,7 +98,6 @@ export default function Home() {
                   className={"text-decoration-line: underline text-red-600 visited:text-red-600 hover:text-blue-400 active:text-purple-600"}
                   href={"https://www.gnu.org/licenses/gpl-3.0.html"} target={"_blank"}><strong>GPL-3.0 License</strong></a></h2>
           </div>
-
           </div>
       </>
   );
