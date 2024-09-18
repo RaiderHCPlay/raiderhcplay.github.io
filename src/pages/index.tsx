@@ -7,6 +7,7 @@ export default function Home() {
           <h2 className={"flex justify-center bg-black text-white text-2xl sm:text-xl md:text-2xl lg:text-7xl"}>
               RaiderHCPlay's Website
           </h2>
+          <div className={"bg-gradient-to-b from-react to-yellow-400"}>
           <div className={"flex justify-center"}>
               <div className={"flex flex-col items-center"}>
                   <a href={"https://github.com/RaiderHCPlay"} target={"_blank"}>
@@ -46,7 +47,7 @@ export default function Home() {
                   </strong>
               </div>
           </div>
-          <div className={"flex flex-col items-center pt-14 text-white "}>
+          <div className={"flex flex-col items-center pt-14 text-black "}>
               <div className={"text-center"}>
                   <h1 className={"text-2xl sm:text-2xl md:text-4xl lg:text-8xl pb-1.5"}>About me</h1>
                   <article className={"text-2xl sm:text-2xl md:text-3xl lg:text-4xl max-w-7xl"}>Hi!
@@ -93,12 +94,12 @@ export default function Home() {
                       /></a></li>
               </ul>
           </div>
-          <div className={"flex justify-center bottom-0 left-0 right-0 p-4 relative"}>
+          <div className={"flex justify-center bottom-0 left-0 right-0 p-4 relative text-black"}>
               <h2 className={"text-xl sm:text-xl md:text-2xl lg:text-3xl"}>This page is under <a
                   className={"text-decoration-line: underline text-red-600 visited:text-red-600 hover:text-orange-400 active:text-blue-600"}
                   href={"https://www.gnu.org/licenses/gpl-3.0.html"} target={"_blank"}>GPL-3.0 License</a></h2>
           </div>
-
+          </div>
       </>
   );
 }
