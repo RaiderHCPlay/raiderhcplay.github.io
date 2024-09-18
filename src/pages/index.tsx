@@ -78,6 +78,14 @@ export default function Home() {
                             height={"50"}
                             src={"https://www.electronjs.org/assets/img/logo.svg"}
                       /></a></li>
+                      <li>Tailwind CSS<a href={"https://tailwindcss.com/"} target={"_blank"}>
+                          <Image
+                              alt={"Tailwind Logo"}
+                              width={"50"}
+                              height={"50"}
+                              src={"https://avatars.githubusercontent.com/u/67109815?s=48&v=4"}
+                              className={"inline w-4 h-4 sm:w-4 sm:h-4 md:w-8 md:h-8 lg:w-14 lg:h-14"}
+                      /></a></li>
                   </dl>
               </article>
           </div>
