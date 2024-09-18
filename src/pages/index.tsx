@@ -50,7 +50,7 @@ export default function Home() {
               <h1 className={"text-2xl sm:text-2xl md:text-4xl lg:text-8xl pb-1.5"}>About me</h1>
               <article className={"text-2xl sm:text-2xl md:text-3xl lg:text-4xl max-w-6xl"}>Hi!
                   My name is Paweł Fabrycki. I'm a
-                  Fullstack Developer with one year of experience. Currently Student!
+                  Programmer with one year of experience. Currently Student!
                   I mainly write in <span className={"text-typescript"}>TypeScript</span>.
                   <dl>Learning frameworks:
                       <li>React <a href={"https://react.dev/"} target={"_blank"}><svg width="100%" height="100%" viewBox="-10.5 -9.45 21 18.9" fill="none"
