@@ -4,9 +4,6 @@ import Image from "next/image";
 export default function Home() {
   return (
       <>
-          <h2 className={"flex justify-center bg-black text-white text-2xl sm:text-xl md:text-2xl lg:text-7xl"}>
-              RaiderHCPlay's Website
-          </h2>
           <div className={"bg-gradient-to-b from-react to-pink-400"}>
           <div className={"flex justify-center"}>
               <div className={"flex flex-col items-center"}>
