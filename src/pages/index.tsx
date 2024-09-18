@@ -46,7 +46,41 @@ export default function Home() {
                   </strong>
               </div>
           </div>
-          <div className={"flex justify-center absolute bottom-0 left-0 right-0 p-4"}>
+          <div className={"flex flex-col items-center text-center pt-14"}>
+              <h1 className={"text-2xl sm:text-2xl md:text-4xl lg:text-8xl"}>About me</h1>
+              <article className={"text-2xl sm:text-2xl md:text-3xl lg:text-4xl"}>Hi! My name is Paweł Fabrycki. I'm a
+                  Fullstack Developer with one year of experience. Currently Student!
+                  I mainly write in <span className={"text-typescript"}>TypeScript</span>.
+                  <dl>Learning frameworks:
+                      <li>React <svg width="100%" height="100%" viewBox="-10.5 -9.45 21 18.9" fill="none"
+                                     xmlns="http://www.w3.org/2000/svg"
+                                     className="inline w-4 h-4 sm:w-4 sm:h-4 md:w-8 md:h-8 lg:w-14 lg:h-14 text-sm me-0 text-brand dark:text-brand-dark origin-center transition-all ease-in-out text-react">
+                          <circle cx="0" cy="0" r="2" fill="currentColor"></circle>
+                          <g stroke="currentColor" stroke-width="1" fill="none">
+                              <ellipse rx="10" ry="4.5"></ellipse>
+                              <ellipse rx="10" ry="4.5" transform="rotate(60)"></ellipse>
+                              <ellipse rx="10" ry="4.5" transform="rotate(120)"></ellipse>
+                          </g>
+                      </svg></li>
+                      <li>NextJS <Image
+                            alt={"NextJS Logo"}
+                            width={"50"}
+                            height={"50"}
+                            className={"inline w-4 h-4 sm:w-4 sm:h-4 md:w-8 md:h-8 lg:w-14 lg:h-14"}
+                            src={"https://camo.githubusercontent.com/c3635f27439ecdbf20e3cbf969c156f4040f10a0c8c836cf307d916dd8f806d4/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313636323133303535392f6e6578746a732f49636f6e5f6461726b5f6261636b67726f756e642e706e67"}
+                      />
+                      </li>
+                      <li>Electron <Image
+                            className={"inline w-4 h-4 sm:w-4 sm:h-4 md:w-8 md:h-8 lg:w-14 lg:h-14"}
+                            alt={"Electron Logo"}
+                            width={"50"}
+                            height={"50"}
+                            src={"https://www.electronjs.org/assets/img/logo.svg"}
+                      /></li>
+                  </dl>
+              </article>
+          </div>
+          <div className={"flex justify-center bottom-0 left-0 right-0 p-4 relative"}>
               <h2 className={"text-xl sm:text-xl md:text-2xl lg:text-3xl"}>This page is under <a
                   className={"text-decoration-line: underline text-red-600 visited:text-red-600 hover:text-orange-400 active:text-blue-600"}
                   href={"https://www.gnu.org/licenses/gpl-3.0.html"} target={"_blank"}>GPL-3.0 License</a></h2>

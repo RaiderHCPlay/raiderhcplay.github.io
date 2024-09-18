@@ -11,7 +11,8 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        typescript: "#3178C6"
+        typescript: "#3178C6",
+        react: "#61dafb"
       },
     },
   },
