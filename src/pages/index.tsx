@@ -47,7 +47,7 @@ export default function Home() {
               </div>
           </div>
           <div className={"flex flex-col items-center text-center pt-14"}>
-              <h1 className={"text-2xl sm:text-2xl md:text-4xl lg:text-8xl"}>About me</h1>
+              <h1 className={"text-2xl sm:text-2xl md:text-4xl lg:text-8xl pb-1.5"}>About me</h1>
               <article className={"text-2xl sm:text-2xl md:text-3xl lg:text-4xl max-w-6xl"}>Hi!
                   My name is Paweł Fabrycki. I'm a
                   Fullstack Developer with one year of experience. Currently Student!
