@@ -11,13 +11,13 @@ export default function Home() {
                       <Image
                           width="200"
                           height="200"
-                          className="border rounded-full mt-10 sm:w-32 sm:h-32 md:w-64 md:h-64 lg:w-80 lg:h-80"
+                          className="animate-fade-down animate-once border rounded-full mt-10 sm:w-32 sm:h-32 md:w-64 md:h-64 lg:w-80 lg:h-80"
                           alt="avatar"
                           src="https://avatars.githubusercontent.com/u/170134946?v=4"
                       />
                   </a>
                   <strong>
-                      <h1 className={"text-orange-600 text-3xl sm:text-2xl md:text-4xl lg:text-8xl"}>
+                      <h1 className={"text-orange-600 text-3xl sm:text-2xl md:text-4xl lg:text-8xl animate-fade-down animate-once"}>
                           Paweł Fabrycki
                       </h1>
                   </strong>
@@ -47,7 +47,7 @@ export default function Home() {
           <div className={"flex flex-col items-center pt-14 text-white "}>
               <div className={"text-center"}>
                   <h1 className={"text-2xl sm:text-2xl md:text-4xl lg:text-8xl pb-1.5"}>About me</h1>
-                  <article className={"text-2xl sm:text-2xl md:text-3xl lg:text-4xl max-w-7xl"}>Hi!
+                  <article className={"text-2xl sm:text-2xl  md:text-3xl lg:text-4xl max-w-7xl"}>Hi!
                       My name is Paweł Fabrycki. I'm a
                       Programmer with one year of experience. Currently Student!
                       I mainly write in <span className={"text-typescript"}>TypeScript</span>.
