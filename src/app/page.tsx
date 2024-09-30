@@ -1,9 +1,20 @@
 import Image from "next/image";
 
 
-export default function Home() {
+export default function Page() {
     return (
         <>
+            <header className={"bg-blue-950"}>
+                <div className={"flex items-center"}>
+                    <Image
+                    width="25"
+                    height="25"
+                    className="border rounded-full ml-[80px] sm:w-8 sm:h-8 md:w-16 md:h-16 lg:w-28 lg:h-28 mt-2 mb-2"
+                    alt="avatar"
+                    src="https://avatars.githubusercontent.com/u/170134946?v=4"/>
+                    <h1 className={"text-[16px] sm:text-[16px] md:text-[32px] lg:text-[64px] pl-12"}>RaiderHCPlay</h1>
+                </div>
+            </header>
             <div className="bg-gradient-to-b from-react to-pink-400">
                 <div className={"flex justify-center"}>
                     <div className={"flex flex-col items-center"}>
@@ -17,7 +28,7 @@ export default function Home() {
                             />
                         </a>
                         <strong>
-                            <h1 className={"text-orange-600 text-3xl sm:text-2xl md:text-4xl lg:text-8xl animate-fade-down animate-once"}>
+                            <h1 className={"text-orange-600 text-3xl sm:text-2xl md:text-4xl lg:text-8xl animate-fade-down"}>
                                 Paweł Fabrycki
                             </h1>
                         </strong>
