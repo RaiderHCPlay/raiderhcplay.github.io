@@ -4,8 +4,9 @@ import Image from "next/image";
 export default function Page() {
     return (
         <>
-            <header className={"bg-blue-950 animate-fade-right animate-duration-[1500ms] animate-delay-200"}>
-                <div className={"flex items-center"}>
+            <header className={"bg-blue-950"}>
+                <div className={"flex items-center animate-fade-right animate-duration-[1500ms] animate-delay-200" +
+                    ""}>
                     <Image
                     width="50"
                     height="50"
