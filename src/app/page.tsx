@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Page() {
     return (
         <>
-            <header className={"bg-blue-950"}>
+            <header className={"bg-blue-950 animate-fade-right animate-duration-[1500ms] animate-delay-200"}>
                 <div className={"flex items-center"}>
                     <Image
                     width="25"
@@ -16,8 +16,7 @@ export default function Page() {
                 </div>
             </header>
             <div className="bg-gradient-to-b from-react to-pink-400">
-                <div className={"flex justify-center"}>
-                    <div className={"flex flex-col items-center"}>
+                    <div className={"flex justify-center flex-col items-center animate-fade-down animate-duration-[1500ms] animate-delay-200"}>
                         <a href={"https://github.com/RaiderHCPlay"} target={"_blank"}>
                             <Image
                                 width="200"
@@ -28,7 +27,7 @@ export default function Page() {
                             />
                         </a>
                         <strong>
-                            <h1 className={"text-orange-600 text-3xl sm:text-2xl md:text-4xl lg:text-8xl animate-fade-down"}>
+                            <h1 className={"text-orange-600 text-3xl sm:text-2xl md:text-4xl lg:text-8xl"}>
                                 Paweł Fabrycki
                             </h1>
                         </strong>
@@ -54,7 +53,6 @@ export default function Page() {
                             </a>
                         </strong>
                     </div>
-                </div>
                 <div className={"flex flex-col items-center pt-14 text-white "}>
                     <div className={"text-center"}>
                         <h1 className={"text-2xl sm:text-2xl md:text-4xl lg:text-8xl pb-1.5"}>About me</h1>
