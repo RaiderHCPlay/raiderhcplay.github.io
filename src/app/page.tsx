@@ -7,12 +7,12 @@ export default function Page() {
             <header className={"bg-blue-950 animate-fade-right animate-duration-[1500ms] animate-delay-200"}>
                 <div className={"flex items-center"}>
                     <Image
-                    width="25"
-                    height="25"
-                    className="border rounded-full ml-[80px] sm:w-8 sm:h-8 md:w-16 md:h-16 lg:w-28 lg:h-28 mt-2 mb-2"
+                    width="50"
+                    height="50"
+                    className="border rounded-full ml-[20px] lg:ml-[80px] sm:w-8 sm:h-8 md:w-16 md:h-16 lg:w-28 lg:h-28 mt-2 mb-2"
                     alt="avatar"
                     src="https://avatars.githubusercontent.com/u/170134946?v=4"/>
-                    <h1 className={"text-[16px] sm:text-[16px] md:text-[32px] lg:text-[64px] pl-12"}>RaiderHCPlay</h1>
+                    <h1 className={"text-[32px] sm:text-[16px] md:text-[32px] lg:text-[64px] pl-12"}>RaiderHCPlay</h1>
                 </div>
             </header>
             <div className="bg-gradient-to-b from-react to-pink-400">
