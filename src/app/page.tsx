@@ -5,7 +5,7 @@ export default function Page() {
     return (
         <>
             <header className={"bg-blue-950"}>
-                <div className={"flex items-center justify-center lg:justify-start animate-fade-right animate-duration-[1500ms] animate-delay-200"}>
+                <div className={"flex items-center justify-center lg:justify-start animate-fade-down lg:animate-fade-right animate-duration-[1500ms] animate-delay-200"}>
                     <Image
                     width="50"
                     height="50"
