@@ -5,8 +5,7 @@ export default function Page() {
     return (
         <>
             <header className={"bg-blue-950"}>
-                <div className={"flex items-center animate-fade-right animate-duration-[1500ms] animate-delay-200" +
-                    ""}>
+                <div className={"flex items-center sm:justify-center lg:justify-start animate-fade-right animate-duration-[1500ms] animate-delay-200"}>
                     <Image
                     width="50"
                     height="50"
@@ -17,7 +16,7 @@ export default function Page() {
                 </div>
             </header>
             <div className="bg-gradient-to-b from-react to-pink-400">
-                    <div className={"flex justify-center flex-col items-center animate-fade-down animate-duration-[1500ms] animate-delay-200"}>
+                    <div className={"flex justify-center flex-col items-center animate-fade-down animate-duration-[2000ms]"}>
                         <a href={"https://github.com/RaiderHCPlay"} target={"_blank"}>
                             <Image
                                 width="200"
