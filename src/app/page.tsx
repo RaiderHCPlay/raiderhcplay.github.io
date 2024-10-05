@@ -12,7 +12,8 @@ export default function Page() {
                     className="border rounded-full ml-[20px] lg:ml-[80px] sm:w-8 sm:h-8 md:w-16 md:h-16 lg:w-28 lg:h-28 mt-2 mb-2"
                     alt="avatar"
                     src="https://avatars.githubusercontent.com/u/170134946?v=4"/>
-                    <h1 className={"text-[20px] sm:text-[16px] md:text-[32px] lg:text-[64px] lg:pl-12 pl-4"}>RaiderHCPlay</h1>
+                    <h1 className={"text-[20px] md:text-[32px] lg:text-[64px] lg:pl-12 pl-4"}>RaiderHCPlay</h1>
+                    <a href="#aboutMe" className={"text-[15px] md:text-[24px] lg:text-[50px] lg:pl-[150px] pl-[6px]"}>About</a>
                 </div>
             </header>
             <div className="bg-gradient-to-b from-react to-pink-400">
@@ -53,7 +54,7 @@ export default function Page() {
                             </a>
                         </strong>
                     </div>
-                <div className={"flex flex-col items-center pt-14 text-white "}>
+                <div id="aboutMe" className={"flex flex-col items-center pt-14 text-white "}>
                     <div className={"text-center"}>
                         <h1 className={"text-2xl sm:text-2xl md:text-4xl lg:text-8xl pb-1.5"}>About me</h1>
                         <article className={"text-2xl sm:text-2xl  md:text-3xl lg:text-4xl max-w-7xl"}>Hi!
