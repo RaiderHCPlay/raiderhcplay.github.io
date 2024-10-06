@@ -1,7 +1,19 @@
+'use client'
+
 import Image from "next/image";
 import Link from 'next/link';
+import React from "react";
+import {className} from "postcss-selector-parser";
 
 export default function Page() {
+
+
+    const [mobileOptions, setMobileOptions] = React.useState(false);
+
+    const settingMobileOptions = () => {
+        setMobileOptions(!mobileOptions);
+    }
+
     return (
         <>
             <header className={"bg-blue-950"}>
@@ -13,7 +25,13 @@ export default function Page() {
                     alt="avatar"
                     src="https://avatars.githubusercontent.com/u/170134946?v=4"/>
                     <Link href="/" className={"text-[20px] md:text-[32px] lg:text-[64px] lg:pl-12 pl-4"}>RaiderHCPlay</Link>
-                    <a href="#aboutMe" className={"text-[15px] md:text-[24px] lg:text-[50px] lg:pl-[150px] pl-[6px]"}>About</a>
+                    <a href="#aboutMe" className={"hidden lg:flex text-[15px] md:text-[24px] lg:text-[50px] lg:pl-[150px] pl-[6px]"}>About</a>
+                    <div className={"flex justify-end lg:hidden text-[20px] animate-fade-left animate-duration-1500"}>
+                        <button onClick={settingMobileOptions}>{!mobileOptions? '=' : 'x'}</button>
+                        <div className={mobileOptions ? '' : 'hidden'}>
+                            <h1>test</h1>
+                        </div>
+                    </div>
                 </div>
             </header>
             <div className="bg-gradient-to-b from-react to-pink-400">
