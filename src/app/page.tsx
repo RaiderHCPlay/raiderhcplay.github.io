@@ -26,7 +26,7 @@ export default function Page() {
                     src="https://avatars.githubusercontent.com/u/170134946?v=4"/>
                     <Link href="/" className={"text-[20px] md:text-[32px] lg:text-[64px] lg:pl-12 pl-4"}>RaiderHCPlay</Link>
                     <a href="#aboutMe" className={"hidden lg:flex text-[15px] md:text-[24px] lg:text-[50px] lg:pl-[150px] pl-[6px]"}>About</a>
-                    <div className={"flex justify-end text-[20px] animate-fade-left animate-duration-1500 animate-delay-200"}>
+                    <div className={"flex justify-end lg:hidden text-[20px] animate-fade-left animate-duration-1500 animate-delay-200"}>
                         <button className={`${ optionsAnimation && 'animate-spin animate-once animate-duration-300'
                         }`}
                             onClick={() => {
