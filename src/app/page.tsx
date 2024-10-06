@@ -2,13 +2,13 @@
 
 import Image from "next/image";
 import Link from 'next/link';
-import React from "react";
-import {className} from "postcss-selector-parser";
+import {useState} from 'react';
 
 export default function Page() {
 
 
-    const [mobileOptions, setMobileOptions] = React.useState(false);
+    const [mobileOptions, setMobileOptions] = useState(false);
+    const [optionsAnimation, setOptionsAnimation] = useState(false);
 
     const settingMobileOptions = () => {
         setMobileOptions(!mobileOptions);
@@ -26,8 +26,13 @@ export default function Page() {
                     src="https://avatars.githubusercontent.com/u/170134946?v=4"/>
                     <Link href="/" className={"text-[20px] md:text-[32px] lg:text-[64px] lg:pl-12 pl-4"}>RaiderHCPlay</Link>
                     <a href="#aboutMe" className={"hidden lg:flex text-[15px] md:text-[24px] lg:text-[50px] lg:pl-[150px] pl-[6px]"}>About</a>
-                    <div className={"flex justify-end lg:hidden text-[20px] animate-fade-left animate-duration-1500"}>
-                        <button onClick={settingMobileOptions}>{!mobileOptions? '=' : 'x'}</button>
+                    <div className={"flex justify-end text-[20px] animate-fade-left animate-duration-1500 animate-delay-200"}>
+                        <button className={`${ optionsAnimation && 'animate-spin animate-once animate-duration-300'
+                        }`}
+                            onClick={() => {
+                            setOptionsAnimation(true)}}
+                                onAnimationStart={settingMobileOptions}
+                        onAnimationEnd={() => setOptionsAnimation(false)}>{!mobileOptions? '=' : 'x'}</button>
                         <div className={mobileOptions ? '' : 'hidden'}>
                             <h1>test</h1>
                         </div>
