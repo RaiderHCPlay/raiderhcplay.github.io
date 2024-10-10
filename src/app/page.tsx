@@ -69,22 +69,21 @@ export default function Page() {
                                 <h2 id="githubLink">GitHub Profile Link</h2>
                             </a>
                         </strong>
-                        <strong className={"mt-3"}>
+                        <b className={"mt-3"}>
                             <a className={"text-white text-2xl sm:text-2xl md:text-4xl lg:text-4xl text-decoration-line: underline visited:text-white hover:text-blue-400 active:text-purple-600"}
                                href="https://github.com/RaiderHCPlay/raiderhcplay.github.io"
                                target={"_blank"}>
                                 <h2 id="githubLink">Page Source Code</h2>
                             </a>
-                        </strong>
+                        </b>
                     </div>
                 <div id="aboutMe" className={"flex flex-col items-center pt-14 text-white "}>
                     <div className={"text-center"}>
                         <h1 className={"text-3xl md:text-4xl lg:text-8xl pb-1.5"}>About me</h1>
                         <article className={"text-2xl sm:text-2xl  md:text-3xl lg:text-4xl max-w-7xl"}>Hi!
-                            My name is Paweł Fabrycki. I'm a
-                            Programmer with one year of experience. Currently Student!
+                            My name is Paweł Fabrycki.<br></br> I'm a Programmer with one year of experience. Currently Student!<br></br>
                             I mainly write in <span className={"text-typescript"}>TypeScript</span>.
-                            Also a lover of mangas, games and anime.
+                            <br></br>Also a lover of mangas, games and anime.
                         </article>
                     </div>
                     <ul className={"text-2xl sm:text-2xl md:text-3xl lg:text-4xl max-w-7xl text-center"}>Learning frameworks:
@@ -126,11 +125,11 @@ export default function Page() {
                         </a></li>
                     </ul>
                 </div>
-                <div className={"flex justify-center bottom-0 left-0 right-0 p-4 relative text-white"}>
+                <footer className={"flex justify-center bottom-0 left-0 right-0 p-4 relative text-white"}>
                     <h2 className={"text-xl sm:text-xl md:text-2xl lg:text-3xl"}>This page is under <a
                         className={"text-decoration-line: underline text-red-600 visited:text-red-600 hover:text-blue-400 active:text-purple-600"}
                         href={"https://www.gnu.org/licenses/gpl-3.0.html"} target={"_blank"}><strong>GPL-3.0 License</strong></a></h2>
-                </div>
+                </footer>
             </div>
         </>
     );
