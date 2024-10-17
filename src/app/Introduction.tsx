@@ -6,8 +6,8 @@ export default function Introduction() {
         className={"flex justify-center items-center animate-fade-down animate-duration-[2000ms]"}>
         <a href={"https://github.com/RaiderHCPlay"} target={"_blank"}>
             <Image
-                width="200"
-                height="200"
+                width="170"
+                height="170"
                 className="border rounded-full mt-10 md:w-80 md:h-80"
                 alt="avatar"
                 src="https://avatars.githubusercontent.com/u/170134946?v=4"
@@ -29,8 +29,7 @@ export default function Introduction() {
         <strong className={"mt-5"}>
             <a className={"text-white text-[18px] md:text-4xl text-decoration-line: underline visited:text-white hover:text-blue-400 active:text-purple-600"}
                href="https://github.com/RaiderHCPlay"
-               target={"_blank"}>
-                <h2 id="githubLink">GitHub Profile Link</h2>
+               target={"_blank"}>GitHub Profile Link
             </a>
         </strong>
         <b className={"mt-3"}>
@@ -44,8 +43,7 @@ export default function Introduction() {
         <b className={"mt-3"}>
             <a className={"text-white text-[18px] md:text-4xl text-decoration-line: underline visited:text-white hover:text-blue-400 active:text-purple-600"}
                href="https://github.com/RaiderHCPlay/raiderhcplay.github.io"
-               target={"_blank"}>
-                <h2 id="githubLink">Page Source Code</h2>
+               target={"_blank"}>Page Source Code
             </a>
         </b>
         </div>
