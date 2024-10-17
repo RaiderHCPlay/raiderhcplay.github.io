@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Introduction() {
     return <div
-        className={"flex justify-center flex-col items-center animate-fade-down animate-duration-[2000ms]"}>
+        className={"flex justify-center items-center animate-fade-down animate-duration-[2000ms]"}>
         <a href={"https://github.com/RaiderHCPlay"} target={"_blank"}>
             <Image
                 width="200"
@@ -13,6 +13,7 @@ export default function Introduction() {
                 src="https://avatars.githubusercontent.com/u/170134946?v=4"
             />
         </a>
+        <div className={"flex flex-col items-center ml-14 pt-12"}>
         <strong>
             <h1 className={"text-orange-600 text-3xl md:text-8xl"}>
                 Paweł Fabrycki
@@ -47,5 +48,6 @@ export default function Introduction() {
                 <h2 id="githubLink">Page Source Code</h2>
             </a>
         </b>
+        </div>
     </div>;
 }
