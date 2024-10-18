@@ -29,7 +29,7 @@ export default function Introduction() {
         <strong className={"mt-2 md:mt-5"}>
             <a className={"text-white text-[18px] md:text-4xl text-decoration-line: underline visited:text-white hover:text-blue-400 active:text-purple-600"}
                href="https://github.com/RaiderHCPlay"
-               target={"_blank"}>GitHub Profile Link
+               target={"_blank"}>GitHub Profile
             </a>
         </strong>
         <b className={"mt-1 md:mt-3"}>
@@ -37,7 +37,7 @@ export default function Introduction() {
                 href={"https://wakatime.com/@RaiderHCPlay"}
                 target={"_blank"}
                 className={"text-white text-[18px] md:text-4xl text-decoration-line: underline visited:text-white hover:text-blue-400 active:text-purple-600"}
-            >WakaTime Profile Link
+            >WakaTime Profile
             </Link>
         </b>
         <b className={"mt-1 md:mt-3"}>
