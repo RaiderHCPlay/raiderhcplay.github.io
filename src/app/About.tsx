@@ -5,9 +5,9 @@ export default function About() {
                 className={"flex flex-col items-center pt-14 text-white animate-fade-down animate-duration-[2000ms] animate-ease-out"}>
         <div className={"text-center"}>
             <h1 className={"text-3xl md:text-8xl pb-1.5"}>About me</h1>
-            <article className={"text-2xl sm:text-2xl  md:text-3xl lg:text-4xl max-w-7xl"}>Hi!
-                My name is Paweł Fabrycki.<br/> I'm a Programmer with one year of experience.<br/>
-                I mainly write in <span className={"text-typescript"}><b>TypeScript</b></span>.
+            <article className={"text-2xl md:text-4xl max-w-7xl"}>Hi!
+                My name is Paweł Fabrycki.<br/> I'm a Programmer / Developer with one year of experience.<br/>
+                I mainly write in <b className={"text-typescript"} >TypeScript</b> and I learn <b className={"text-rust"}>Rust</b>.
                 <br/>Also a lover of mangas, games and anime.
             </article>
         </div>

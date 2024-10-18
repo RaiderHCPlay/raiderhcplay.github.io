@@ -12,7 +12,8 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         typescript: "#3178C6",
-        react: "#61dafb"
+        react: "#61dafb",
+        rust: "#B7410E"
       },
     },
   },
