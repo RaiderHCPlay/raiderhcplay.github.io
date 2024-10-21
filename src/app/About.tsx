@@ -35,14 +35,6 @@ export default function About() {
                  className={"hover:underline hover:text-black"}>Next.js</a>
             </li>
             <li className={"pt-1"}><Image
-                className={"inline w-11 h-11 md:w-14 md:h-14"}
-                alt={"Electron Logo"}
-                width={"50"}
-                height={"50"}
-                src={"https://www.electronjs.org/assets/img/logo.svg"}
-            /> <a href={"https://www.electronjs.org/"} target={"_blank"}
-                className={"hover:underline hover:text-gray-600"}>Electron</a></li>
-            <li className={"pt-1"}><Image
                 alt={"Tailwind Logo"}
                 width={"50"}
                 height={"50"}
