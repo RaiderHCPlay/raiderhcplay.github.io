@@ -1,11 +1,11 @@
 'use client'
 
 import {useState} from 'react';
-import Header from "@/app/Header";
-import Footer from '@/app/Footer';
-import Introduction from "@/app/Introduction";
-import About from '@/app/About';
-import Projects from "@/app/Projects";
+import Header from "@/app/pages/Header";
+import Footer from '@/app/pages/Footer';
+import Introduction from "@/app/pages/Introduction";
+import About from '@/app/pages/About';
+import Projects from "@/app/pages/Projects";
 
 export default function Page() {
 
@@ -24,8 +24,8 @@ export default function Page() {
             <div className="bg-gradient-to-b from-react to-purple-400">
                 <Introduction/>
                 <About/>
-                <Footer/>
                 <Projects/>
+                <Footer/>
             </div>
 
         </>
