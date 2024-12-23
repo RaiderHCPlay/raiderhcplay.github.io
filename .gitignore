@@ -1,0 +1,8 @@
+#IDE
+.idea/
+
+#NEXT
+.next/
+
+#Node
+node_modules

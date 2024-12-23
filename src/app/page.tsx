@@ -21,7 +21,7 @@ export default function Page() {
             <Header optionsAnimation={optionsAnimation} onAnimationStart={settingMobileOptions} onClick={() => {
                 setOptionsAnimation(true)
             }} onAnimationEnd={() => setOptionsAnimation(false)} mobileOptions={mobileOptions}/>
-            <div className="bg-gradient-to-b from-react to-purple-400">
+            <div className="">
                 <Introduction/>
                 <About/>
                 <Projects/>
