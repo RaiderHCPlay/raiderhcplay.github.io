@@ -6,8 +6,16 @@ export default function Header(props: {
     mobileOptions: boolean
 }) {
     return <header className={"bg-[#11111b]"}>
-        <div>
-            <h1 className={"text-center"}>RaiderHCPlay</h1>
+        <div
+            className={"flex justify-end lg:hidden text-[20px] animate-fade-left animate-duration-1500 animate-delay-200"}>
+            <button className={`${props.optionsAnimation && "animate-spin animate-once animate-duration-300"
+            }`}
+                    onAnimationStart={props.onAnimationStart}
+                    onClick={props.onClick}
+                    onAnimationEnd={props.onAnimationEnd}>{!props.mobileOptions ? "=" : "x"}</button>
+            <div className={props.mobileOptions ? "animate-fade-left" : "hidden"}>
+                <h1>test</h1>
+            </div>
         </div>
     </header>;
 }
