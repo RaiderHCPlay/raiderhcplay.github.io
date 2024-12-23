@@ -27,7 +27,7 @@ export default function Introduction() {
             </h2>
         </strong>
         <strong className={"mt-2 md:mt-5"}>
-            <a className={"text-[18px] md:text-4xl text-decoration-line: underline hover:text-blue-400 active:text-purple-600"}
+            <a className={"text-[18px] md:text-4xl text-decoration-line: underline hover:text-[#89b4fa] active:text-purple-600"}
                href="https://github.com/RaiderHCPlay"
                target={"_blank"}>GitHub Profile
             </a>
@@ -36,12 +36,12 @@ export default function Introduction() {
             <Link
                 href={"https://wakatime.com/@RaiderHCPlay"}
                 target={"_blank"}
-                className={"text-[18px] md:text-4xl text-decoration-line: underline hover:text-blue-400 active:text-purple-600"}
+                className={"text-[18px] md:text-4xl text-decoration-line: underline hover:text-[#89b4fa] active:text-purple-600"}
             >WakaTime Profile
             </Link>
         </b>
         <b className={"mt-1 md:mt-3"}>
-            <a className={"text-[18px] md:text-4xl text-decoration-line: underline hover:text-blue-400 active:text-purple-600"}
+            <a className={"text-[18px] md:text-4xl text-decoration-line: underline hover:text-[#89b4fa] active:text-purple-600"}
                href="https://github.com/RaiderHCPlay/raiderhcplay.github.io"
                target={"_blank"}>Page Source Code
             </a>
