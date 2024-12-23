@@ -14,7 +14,7 @@ export default function Header(props: {
                     onClick={props.onClick}
                     onAnimationEnd={props.onAnimationEnd}>{!props.mobileOptions ? "=" : "x"}</button>
             <div className={props.mobileOptions ? "animate-fade-left" : "hidden"}>
-                <h1>test</h1>
+                <h1>In dev</h1>
             </div>
         </div>
     </header>;
