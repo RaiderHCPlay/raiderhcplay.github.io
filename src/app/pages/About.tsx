@@ -6,7 +6,7 @@ export default function About() {
         <div className={"text-center"}>
             <h1 className={"text-3xl md:text-8xl pb-1.5"}>About me</h1>
             <article className={"text-2xl md:text-4xl max-w-7xl"}>Hi!
-                My name is Paweł Fabrycki.<br/> I'm a Programmer / Developer with one year of experience.<br/>
+                My name is Paweł Fabrycki.<br/> I&#39;m a Programmer / Developer with one year of experience.<br/>
                 I mainly write in <b className={"text-typescript"} >TypeScript</b> and I learn <b className={"text-rust"}>Rust</b>.
                 <br/>Also a lover of mangas, games and anime.
             </article>
