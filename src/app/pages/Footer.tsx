@@ -11,7 +11,7 @@ export default function Footer() {
     return (
     <footer className={"flex justify-center bottom-0 left-0 right-0 p-4 relative animate-flip-up animate-delay-100 animate-duration[2000mx]"}>
         {date !== undefined &&
-            <h2 className={"text-[7px] md:text-xl"}>
+            <h2 className={"text-[11px] md:text-xl"}>
                 © {date.getFullYear()} Paweł Fabrycki
             </h2>
         }
