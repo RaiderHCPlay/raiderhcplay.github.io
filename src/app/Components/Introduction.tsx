@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Introduction() {
     return (
         <div
-            className={"flex-col md:flex-row flex justify-center items-center animate-fade-down animate-duration-[2000ms] w-[300px] md:w-[750px] m-auto border-[#94e2d5] border-[3px] mt-2.5"}>
+            className={"flex-col md:flex-row flex justify-center items-center animate-fade-down animate-duration-[2000ms] w-[300px] md:w-[750px] m-auto border-[#94e2d5] border-[3px] mt-2.5 p-3.5"}>
         <a href={"https://github.com/RaiderHCPlay"} target={"_blank"}>
             <Image
                 width="110"
@@ -14,7 +14,7 @@ export default function Introduction() {
                 src="https://avatars.githubusercontent.com/u/170134946?v=4"
             />
         </a>
-        <div className={"flex flex-col items-center md:ml-14 pt-2"}>
+        <div className={"flex flex-col items-center md:ml-14"}>
         <strong>
             <h1 className={"text-orange-600 text-[30px] md:text-5xl"}>
                 Paweł Fabrycki
@@ -33,7 +33,7 @@ export default function Introduction() {
                target={"_blank"}>GitHub Profile
             </a>
         </strong>
-        <b className={"mt-1 md:mt-3 pb-2"}>
+        <b className={"mt-1 md:mt-3"}>
             <Link
                 href={"https://wakatime.com/@RaiderHCPlay"}
                 target={"_blank"}
