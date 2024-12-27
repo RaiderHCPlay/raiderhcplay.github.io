@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Introduction() {
     return (
         <div
-            className={"flex-col md:flex-row flex justify-center items-center animate-fade-down animate-duration-[2000ms] w-[350px] md:w-[750px] m-auto border-[#94e2d5] border-[3px] mt-2.5 p-3.5"}>
+            className={"flex-col md:flex-row flex justify-center items-center animate-fade-down animate-duration-[2000ms] w-[325px] md:w-[750px] m-auto border-[#94e2d5] border-[3px] mt-2.5 p-3.5"}>
         <a href={"https://github.com/RaiderHCPlay"} target={"_blank"}>
             <Image
                 width="110"
