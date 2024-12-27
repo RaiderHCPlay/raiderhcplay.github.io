@@ -7,7 +7,7 @@ export default function Header(props: {
     onAnimationEnd: () => void,
     mobileOptions: boolean
 }) {
-    return <header className={"bg-[#11111b] w-full h-[65px] flex items-center justify-center"}>
+    return <header className={"bg-[#11111b] w-full h-[35px] md:h-[65px] flex items-center justify-center"}>
         <div className={"flex flex-row justify-center items-center"}>
             <Image
                 src={"https://avatars.githubusercontent.com/u/170134946?v=4"}
