@@ -10,7 +10,7 @@ export default function Introduction() {
                 width="110"
                 height="110"
                 className="border rounded-full md:w-60 md:h-60"
-                alt="avatar"
+                alt="Avatar"
                 src="https://avatars.githubusercontent.com/u/170134946?v=4"
             />
         </a>
@@ -29,7 +29,7 @@ export default function Introduction() {
                 </h2>
             </strong>
             <strong className={"mt-2 md:mt-5"}>
-                <a className={"text-[20px] md:text-3xl text-decoration-line: underline hover:text-[#a6e3a1] active:text-purple-600"}
+                <a className={"text-[20px] md:text-3xl text-decoration-line: underline hover:text-[#a6e3a1] active:text-[#cba6f7]"}
                    href="https://github.com/RaiderHCPlay"
                    target={"_blank"}>GitHub Profile
                 </a>
@@ -38,7 +38,7 @@ export default function Introduction() {
                 <Link
                     href={"https://wakatime.com/@RaiderHCPlay"}
                     target={"_blank"}
-                    className={"text-[20px] md:text-3xl text-decoration-line: underline hover:text-[#a6e3a1] active:text-purple-600"}
+                    className={"text-[20px] md:text-3xl text-decoration-line: underline hover:text-[#a6e3a1] active:text-[#cba6f7]"}
                 >WakaTime Profile
                 </Link>
             </b>

@@ -1,12 +1,11 @@
 'use client'
 
-import {useState} from 'react';
 import Header from "@/app/Components/Header";
-import Footer from '@/app/Components/Footer';
-import Introduction from "@/app/Components/Introduction";
-import Buttons from "@/app/Components/Buttons";
+import Footer from "@/app/Components/Footer";
+import About from "@/app/Components/About";
+import {useState} from "react";
 
-export default function Page() {
+export default function AboutPage() {
 
     const [mobileOptions, setMobileOptions] = useState(false);
     const [optionsAnimation, setOptionsAnimation] = useState(false);
@@ -19,13 +18,9 @@ export default function Page() {
         <>
             <Header optionsAnimation={optionsAnimation} onAnimationStart={settingMobileOptions} onClick={() => {
                 setOptionsAnimation(true)
-            }} onAnimationEnd={() => setOptionsAnimation(false)} mobileOptions={mobileOptions}/>
-            <div className="">
-                <Introduction/>
-                <Buttons />
-                <Footer/>
-            </div>
-
+            }} onAnimationEnd={() => setOptionsAnimation(false)} mobileOptions={mobileOptions} />
+            <About />
+            <Footer />
         </>
-    );
+    )
 }

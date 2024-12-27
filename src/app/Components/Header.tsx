@@ -9,13 +9,15 @@ export default function Header(props: {
 }) {
     return <header className={"bg-[#11111b] w-full h-[35px] md:h-[65px] flex items-center justify-center"}>
         <div className={"flex flex-row justify-center items-center"}>
-            <Image
+            <a href={"/"}>
+                <Image
                 src={"https://avatars.githubusercontent.com/u/170134946?v=4"}
-                alt={"Avatar"}
+                alt={"Main Page"}
                 width={"30"}
                 height={"30"}
                 className={"rounded-full md:w-[60px] md:h-[60px]"}
-            />
+                />
+            </a>
         </div>
         <div
             className={"flex justify-end md:hidden text-[20px] animate-fade-left animate-duration-1500 animate-delay-200"}>
