@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "RaiderHCPlay GitHub io",
+  title: "Paweł Fabrycki",
   description: "RaiderHCPlay's personal website",
   icons: "https://avatars.githubusercontent.com/u/170134946?v=4",
   keywords: "RaiderHCPlay, github, personal website"
