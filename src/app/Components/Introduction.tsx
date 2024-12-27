@@ -7,8 +7,8 @@ export default function Introduction() {
             className={"flex-col md:flex-row flex justify-center items-center animate-fade-down animate-duration-[2000ms] w-1/2 m-auto border-[#94e2d5] border-[3px] mt-2.5"}>
         <a href={"https://github.com/RaiderHCPlay"} target={"_blank"}>
             <Image
-                width="120"
-                height="120"
+                width="110"
+                height="110"
                 className="border rounded-full md:w-60 md:h-60"
                 alt="avatar"
                 src="https://avatars.githubusercontent.com/u/170134946?v=4"
@@ -33,7 +33,7 @@ export default function Introduction() {
                target={"_blank"}>GitHub Profile
             </a>
         </strong>
-        <b className={"mt-1 md:mt-3"}>
+        <b className={"mt-1 md:mt-3 pb-2"}>
             <Link
                 href={"https://wakatime.com/@RaiderHCPlay"}
                 target={"_blank"}
