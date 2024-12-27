@@ -40,12 +40,6 @@ export default function Introduction() {
             >WakaTime Profile
             </Link>
         </b>
-        <b className={"mt-1 md:mt-3"}>
-            <a className={"text-[18px] md:text-4xl text-decoration-line: underline hover:text-[#89b4fa] active:text-purple-600"}
-               href="https://github.com/RaiderHCPlay/raiderhcplay.github.io"
-               target={"_blank"}>Page Source Code
-            </a>
-        </b>
         </div>
     </div>;
 }
