@@ -7,7 +7,7 @@ export default function Header(props: {
     onAnimationEnd: () => void,
     mobileOptions: boolean
 }) {
-    return <header className={"bg-[#11111b] w-full h-[65px] flex"}>
+    return <header className={"bg-[#11111b] w-full h-[65px] flex items-center justify-center"}>
         <div className={"flex flex-row justify-center items-center"}>
             <Image
                 src={"https://avatars.githubusercontent.com/u/170134946?v=4"}
@@ -18,7 +18,7 @@ export default function Header(props: {
             />
         </div>
         <div
-            className={"flex justify-end lg:hidden text-[20px] animate-fade-left animate-duration-1500 animate-delay-200"}>
+            className={"flex justify-end md:hidden text-[20px] animate-fade-left animate-duration-1500 animate-delay-200"}>
             <button className={`${props.optionsAnimation && "animate-spin animate-once animate-duration-300"
             }`}
                     onAnimationStart={props.onAnimationStart}

@@ -4,7 +4,6 @@ import {useState} from 'react';
 import Header from "@/app/Components/Header";
 import Footer from '@/app/Components/Footer';
 import Introduction from "@/app/Components/Introduction";
-import About from '@/app/Components/About';
 import Projects from "@/app/Components/Projects";
 
 export default function Page() {
@@ -23,7 +22,6 @@ export default function Page() {
             }} onAnimationEnd={() => setOptionsAnimation(false)} mobileOptions={mobileOptions}/>
             <div className="">
                 <Introduction/>
-                <About/>
                 <Projects/>
                 <Footer/>
             </div>
