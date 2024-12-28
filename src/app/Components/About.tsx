@@ -13,6 +13,9 @@ export default function About() {
                 For development I use Arch Linux and WebStorm IDE.
             </article>
         </div>
+        <div className={"border-[#a6e3a1] border-r-[3px] w-1/2 h-[350px]"}>
+
+        </div>
     </div>
     )
 }
