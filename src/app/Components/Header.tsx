@@ -10,7 +10,7 @@ export default function Header() {
         setMobileOptions(!mobileOptions);
     }
 
-    return <header className={"bg-[#11111b] w-full h-[35px] md:h-[65px] flex items-center justify-center"}>
+    return <header className={"bg-[#11111b] w-full h-[35px] md:h-[65px] flex items-center justify-center animate-fade-down animate-delay-200 animate-duration-1500"}>
         <div className={"flex flex-row justify-center items-center"}>
             <a href={"/"}>
                 <Image
