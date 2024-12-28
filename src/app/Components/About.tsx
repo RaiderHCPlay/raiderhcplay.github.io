@@ -9,8 +9,6 @@ export default function About() {
                 className={"text-typescript mt-auto"}>TypeScript</b> Programmer and Web Developer.
                 <br></br>
                 In free time I love reading mangas, watching anime, playing games and airsofting.
-                <br></br>
-                For development I use Arch Linux and WebStorm IDE.
             </article>
         </div>
         <div className={"border-[#a6e3a1] border-r-[3px] w-1/2 h-[350px] flex flex-col items-center"}>
