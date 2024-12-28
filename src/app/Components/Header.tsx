@@ -1,12 +1,15 @@
+'use client'
 import Image from "next/image";
+import {useState} from "react";
 
-export default function Header(props: {
-    optionsAnimation: boolean,
-    onAnimationStart: () => void,
-    onClick: () => void,
-    onAnimationEnd: () => void,
-    mobileOptions: boolean
-}) {
+export default function Header() {
+    const [mobileOptions, setMobileOptions] = useState(false);
+    const [optionsAnimation, setOptionsAnimation] = useState(false);
+
+    const settingMobileOptions = () => {
+        setMobileOptions(!mobileOptions);
+    }
+
     return <header className={"bg-[#11111b] w-full h-[35px] md:h-[65px] flex items-center justify-center"}>
         <div className={"flex flex-row justify-center items-center"}>
             <a href={"/"}>
@@ -21,12 +24,14 @@ export default function Header(props: {
         </div>
         <div
             className={"flex justify-end md:hidden text-[20px] animate-fade-left animate-duration-1500 animate-delay-200"}>
-            <button className={`${props.optionsAnimation && "animate-spin animate-once animate-duration-300"
+            <button className={`${optionsAnimation && "animate-spin animate-once animate-duration-300"
             }`}
-                    onAnimationStart={props.onAnimationStart}
-                    onClick={props.onClick}
-                    onAnimationEnd={props.onAnimationEnd}>{!props.mobileOptions ? "=" : "x"}</button>
-            <div className={props.mobileOptions ? "animate-fade-left" : "hidden"}>
+                    onAnimationStart={settingMobileOptions}
+                    onClick={() => {
+                        setOptionsAnimation(true)
+                    }}
+                    onAnimationEnd={() => setOptionsAnimation(false)}>{!mobileOptions ? "=" : "x"}</button>
+            <div className={mobileOptions ? "animate-fade-left" : "hidden"}>
                 <h1>In dev</h1>
             </div>
         </div>
