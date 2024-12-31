@@ -21,7 +21,7 @@ export default function Header() {
                             className={"rounded-full md:w-[60px] md:h-[60px]"}
                         />
                     </Link>
-                    <div className={"text-[25px] fixed right-5 border-[#a6e3a1] border-[3px] p-0.5"}>
+                    <div className={"md:hidden text-[25px] fixed right-5 border-[#a6e3a1] border-[3px] p-0.5"}>
                         <button
                             onClick={() => setMobileOptions(!mobileOptions)}
                         >
