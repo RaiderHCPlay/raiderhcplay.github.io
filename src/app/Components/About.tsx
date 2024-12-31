@@ -21,8 +21,8 @@ export default function About() {
                         <svg width="60px" height="60px" viewBox="0 -14 256 256" version="1.1"
                              xmlns="http://www.w3.org/2000/svg"
                              preserveAspectRatio="xMidYMid" fill="#000000">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                            <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                             <g id="SVGRepo_iconCarrier">
                                 <g>
                                     <path
@@ -36,8 +36,8 @@ export default function About() {
                     <div className={"flex items-center pt-1.5"}>
                         <svg viewBox="0 0 32 32" width={"60"} height={"60"} xmlns="http://www.w3.org/2000/svg"
                              fill="#000000">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                            <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                             <g id="SVGRepo_iconCarrier"><title>file_type_tailwind</title>
                                 <path
                                     d="M9,13.7q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q11.1,10.9,9,13.7ZM2,22.1q1.4-5.6,7-5.6c5.6,0,6.3,4.2,9.1,4.9q2.8.7,4.9-2.1-1.4,5.6-7,5.6c-5.6,0-6.3-4.2-9.1-4.9Q4.1,19.3,2,22.1Z"
@@ -49,11 +49,11 @@ export default function About() {
                     <div className={"flex items-center pt-1.5"}>
                         <svg width="60px" height="60px" viewBox="0 0 256.00 256.00" version="1.1"
                              xmlns="http://www.w3.org/2000/svg"
-                             preserveAspectRatio="xMidYMid" fill="#000000" stroke="#000000" stroke-width="0.00256">
+                             preserveAspectRatio="xMidYMid" fill="#000000" stroke="#000000" strokeWidth="0.00256">
 
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+                            <g id="SVGRepo_bgCarrier" strokeWidth="0"/>
 
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+                            <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"/>
 
                             <g id="SVGRepo_iconCarrier">
                                 <g>
@@ -70,8 +70,8 @@ export default function About() {
                         <svg viewBox="0 0 256 256" width={"60"} height={"60"} version="1.1"
                              xmlns="http://www.w3.org/2000/svg"
                              preserveAspectRatio="xMidYMid" fill="#000000">
-                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                            <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                            <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                             <g id="SVGRepo_iconCarrier">
                                 <g>
                                     <polygon fill="#007ACC"
@@ -98,12 +98,12 @@ export default function About() {
                             <svg width="64px" height="64px" viewBox="0 0 20 20" version="1.1"
                                  xmlns="http://www.w3.org/2000/svg"
                                  fill="#000000">
-                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                                 <g id="SVGRepo_iconCarrier"><title>github [#142]</title>
                                     <desc>Created with Sketch.</desc>
                                     <defs></defs>
-                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                    <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
                                         <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)"
                                            fill="#000000">
                                             <g id="icons" transform="translate(56.000000, 160.000000)">
@@ -121,8 +121,8 @@ export default function About() {
                             <svg viewBox="0 0 256 256" width={"60"} height={"60"} version="1.1" xmlns="http://www.w3.org/2000/svg"
                                  xmlnsXlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"
                                  fill="#000000">
-                                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                                 <g id="SVGRepo_iconCarrier">
                                     <g>
                                         <path
