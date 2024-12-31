@@ -3,6 +3,7 @@
 import Image from "next/image";
 import {useState} from 'react';
 import Link from "next/link";
+import Buttons from "@/app/Components/Buttons";
 
 export default function Header() {
 
@@ -21,7 +22,7 @@ export default function Header() {
                             className={"rounded-full md:w-[60px] md:h-[60px]"}
                         />
                     </Link>
-                    <div className={"md:hidden text-[25px] fixed right-5 border-[#a6e3a1] border-[3px] p-0.5"}>
+                    <div className={"md:hidden text-[25px] fixed right-0 border-[#a6e3a1] border-[3px] p-0.5"}>
                         <button
                             onClick={() => setMobileOptions(!mobileOptions)}
                         >
@@ -38,6 +39,7 @@ export default function Header() {
                     >Close
                     </button>
                 </div>
+                <Buttons classes={"flex justify-center flex-col items-center space-y-10"} />
             </div>
         </>
     )

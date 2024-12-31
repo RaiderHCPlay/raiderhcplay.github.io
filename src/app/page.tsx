@@ -9,7 +9,7 @@ export default function Page() {
         <>
             <Header />
             <Introduction/>
-            <Buttons />
+            <Buttons classes={"hidden md:flex md:flex-row justify-between items-center animate-fade-up animate-duration-[2000ms] w-[325px] md:w-[750px] m-auto border-[#a6e3a1] border-[3px] mt-2.5 p-3.5"}/>
             <Footer/>
         </>
     );

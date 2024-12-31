@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-export default function Buttons() {
+export default function Buttons({classes}: {classes: string}) {
     return (
-        <div className={"hidden md:flex md:flex-row justify-between items-center animate-fade-up animate-duration-[2000ms] w-[325px] md:w-[750px] m-auto border-[#a6e3a1] border-[3px] mt-2.5 p-3.5"}>
+        <div className={classes}>
             <Link
                 href={"/about"}
                 target={"_parent"}
