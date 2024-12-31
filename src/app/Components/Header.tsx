@@ -30,9 +30,9 @@ export default function Header() {
                     </button>
                 </div>
             </header>
-            <div className={mobileOptions ? "z-50 bg-[#181825] w-1/3 h-full fixed top-0 right-0" : "hidden"}>
+            <div className={mobileOptions ? "z-50 bg-[#181825] w-2/3 h-full fixed top-0 right-0" : "hidden"}>
                 <div className={"flex items-center justify-between bg-[#11111b] w-full h-[50px] md:h-[65px] "}>
-                    <h1 className={"text-[35px] flex justify-center flex-grow"}>Mobile Section</h1>
+                    <h1 className={"text-[35px] flex justify-center flex-grow"}>Options</h1>
                     <button
                         className={"text-[25px] border-[#a6e3a1] border-[3px] p-0.5"}
                         onClick={() => setMobileOptions(!mobileOptions)}
