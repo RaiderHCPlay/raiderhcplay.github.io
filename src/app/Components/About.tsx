@@ -3,11 +3,11 @@ import Link from "next/link";
 export default function About() {
     return (
         <div
-            className={"text-center animate-fade-down animate-duration-[2000ms] animate-ease-out border-[#a6e3a1] border-[3px] w-[1200px] h-[600px] m-auto mt-2.5"}>
-            <div className={"border-[#a6e3a1] border-b-[3px] w-full h-[250px] flex flex-col items-center"}>
+            className={"text-center animate-fade-down animate-duration-[2000ms] animate-ease-out border-[#a6e3a1] border-[3px] w-[400px] h-[555px] md:w-[1200px] md:h-[600px] m-auto mt-2.5"}>
+            <div className={"border-[#a6e3a1] border-b-[3px] h-[200px] w-full md:h-[250px] flex flex-col items-center"}>
                 <h1 className={"text-[30px] md:text-5xl border-[#a6e3a1] border-b-[3px] border-l-[3px] border-r-[3px] pl-4 pr-4 pt-1.5 pb-1.5"}>About
                     me</h1>
-                <article className={"text-[30px] pt-5"}>Hello World! I&#39;m Paweł Fabrycki, the <b
+                <article className={"text-[18px] md:text-[30px] pt-5"}>Hello World! I&#39;m Paweł Fabrycki, the <b
                     className={"text-typescript mt-auto"}>TypeScript</b> Programmer and Web Developer.
                     <br></br>
                     In free time I love reading mangas, watching anime, playing games and airsofting.
@@ -93,7 +93,7 @@ export default function About() {
                 </div>
                 <div className={"flex items-center flex-col w-1/2"}>
                     <h1 className={"text-[30px] md:text-5xl border-[#a6e3a1] border-b-[3px] border-l-[3px] border-r-[3px] pl-4 pr-4 pt-1.5 pb-1.5"}>Media</h1>
-                    <div className={"flex justify-center items-center"}>
+                    <div className={"flex flex-col justify-center items-center"}>
                         <Link href={"https://github.com/RaiderHCPlay"} target={"_blank"} className={"flex items-center pt-1.5"}>
                             <svg width="64px" height="64px" viewBox="0 0 20 20" version="1.1"
                                  xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +117,7 @@ export default function About() {
                             </svg>
                             <h1 className={"md:text-3xl pl-2.5"}>Github</h1>
                         </Link>
-                        <Link href={"https://wakatime.com/@RaiderHCPlay"} target={"_blank"} className={"flex items-center pl-10"}>
+                        <Link href={"https://wakatime.com/@RaiderHCPlay"} target={"_blank"} className={"flex items-center md:pl-10 pt-1.5"}>
                             <svg viewBox="0 0 256 256" width={"60"} height={"60"} version="1.1" xmlns="http://www.w3.org/2000/svg"
                                  xmlnsXlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid"
                                  fill="#000000">
