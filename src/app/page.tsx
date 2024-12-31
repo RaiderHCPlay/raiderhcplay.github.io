@@ -8,12 +8,9 @@ export default function Page() {
     return (
         <>
             <Header />
-            <div className="">
-                <Introduction/>
-                <Buttons />
-                <Footer/>
-            </div>
-
+            <Introduction/>
+            <Buttons />
+            <Footer/>
         </>
     );
 }
