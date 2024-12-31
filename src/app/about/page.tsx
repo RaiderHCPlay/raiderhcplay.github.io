@@ -4,7 +4,7 @@ import About from "@/app/Components/About";
 
 export async function generateMetadata() {
     return {
-        title: "About Paweł",
+        title: "About",
         description: "Page about Paweł"
     }
 }
