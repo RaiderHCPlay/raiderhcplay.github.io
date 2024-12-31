@@ -39,7 +39,7 @@ export default function Header() {
                     >Close
                     </button>
                 </div>
-                <Buttons classes={"flex justify-center flex-col items-center space-y-10"} />
+                <Buttons classes={"flex justify-center flex-col h-full items-center space-y-10"} />
             </div>
         </>
     )
