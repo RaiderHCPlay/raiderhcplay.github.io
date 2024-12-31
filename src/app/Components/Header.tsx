@@ -16,8 +16,8 @@ export default function Header() {
                     <Image
                         src={"https://avatars.githubusercontent.com/u/170134946?v=4"}
                         alt={"Main Page"}
-                        width={"30"}
-                        height={"30"}
+                        width={"45"}
+                        height={"45"}
                         className={"rounded-full md:w-[60px] md:h-[60px]"}
                     />
                 </a>
