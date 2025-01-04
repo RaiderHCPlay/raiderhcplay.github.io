@@ -2,13 +2,12 @@
 
 .container {
   @include global.green-border();
-  @include global.font-size();
   @include global.ml-r-auto;
   @include global.md(700px, 300px);
   @include global.sm(300px, 400px);
   margin-top: 10px;
-  display: flex;
-  justify-content: center;
+  @include global.flex-jc-ic;
+  flex-direction: column;
 }
 
 .projectsTitle {
@@ -17,4 +16,13 @@
   @include global.green-border(0, 2, 2, 2);
   width: 180px;
   height: 60px;
+  margin-bottom: auto;
+}
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
