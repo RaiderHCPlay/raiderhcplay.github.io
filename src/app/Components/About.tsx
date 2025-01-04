@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function About() {
     return (
         <div
-            className={"text-center animate-fade-down animate-duration-[2000ms] animate-ease-out border-[#a6e3a1] border-[3px] w-[400px] h-[555px] md:w-[1200px] md:h-[600px] m-auto mt-2.5"}>
+            className={"text-center animate-fade-down animate-duration-[2000ms] animate-ease-out border-[#a6e3a1] border-[3px] c m-auto mt-2.5"}>
             <div className={"border-[#a6e3a1] border-b-[3px] h-[200px] w-full md:h-[250px] flex flex-col items-center"}>
                 <h1 className={"text-[30px] md:text-5xl border-[#a6e3a1] border-b-[3px] border-l-[3px] border-r-[3px] pl-4 pr-4 pt-1.5 pb-1.5"}>About
                     me</h1>
