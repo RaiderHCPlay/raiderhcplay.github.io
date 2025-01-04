@@ -19,3 +19,17 @@ $green: #a6e3a1;
   justify-content: center;
   align-items: center;
 }
+
+@mixin md($width, $height) {
+  @media (width >= 1024px) {
+    width: $width;
+    height: $height;
+  }
+}
+
+@mixin sm($width, $height) {
+  @media (width < 640px), ((width >= 640px) and (width < 1024px)) {
+    width: $width;
+    height: $height;
+  }
+}

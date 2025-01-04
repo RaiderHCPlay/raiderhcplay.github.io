@@ -4,19 +4,11 @@
   @include global.green-border();
   @include global.font-size();
   @include global.ml-r-auto;
+  @include global.md(700px, 300px);
+  @include global.sm(300px, 400px);
   margin-top: 10px;
   display: flex;
   justify-content: center;
-
-  @media (width >= 1024px) {
-    width: 700px;
-    height: 300px;
-  }
-
-  @media (width < 640px), ((width >= 640px) and (width < 1024px)) {
-    width: 300px;
-    height: 400px;
-  }
 }
 
 .projectsTitle {
