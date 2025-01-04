@@ -1,22 +1,26 @@
 @use 'global';
 
 .container {
-  margin-top: 10px;
-  flex-direction: column;
   @include global.green-border();
   @include global.ml-r-auto;
   @include global.md(700px, 300px);
   @include global.sm(300px, 400px);
   @include global.flex-jc-ic;
+  & {
+    margin-top: 10px;
+    flex-direction: column;
+  }
 }
 
 .projectsTitle {
-  width: 180px;
-  height: 60px;
-  margin-bottom: auto;
-  @include global.font-size(40);
+  @include global.font-size(40px);
   @include global.flex-jc-ic;
-  @include global.green-border(0, 2, 2, 2);
+  @include global.green-border(0px, 2px, 2px, 2px);
+  & {
+    width: 180px;
+    height: 60px;
+    margin-bottom: auto;
+  }
 }
 
 .projects {

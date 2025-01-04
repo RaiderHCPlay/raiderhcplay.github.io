@@ -1,6 +1,4 @@
 .container {
-  margin-top: 10px;
-  flex-direction: column;
   border-color: #a6e3a1;
   border-width: 2px 2px 2px 2px;
   margin-left: auto;
@@ -21,17 +19,23 @@
     height: 400px;
   }
 }
+.container {
+  margin-top: 10px;
+  flex-direction: column;
+}
 
 .projectsTitle {
-  width: 180px;
-  height: 60px;
-  margin-bottom: auto;
-  font-size: 40;
+  font-size: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-color: #a6e3a1;
-  border-width: 0 2 2 2;
+  border-width: 0px 2px 2px 2px;
+}
+.projectsTitle {
+  width: 180px;
+  height: 60px;
+  margin-bottom: auto;
 }
 
 .projects {
