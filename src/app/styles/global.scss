@@ -1,35 +1,47 @@
 $green: #a6e3a1;
 
 @mixin green-border($pixels-top: 2px, $pixels-left: 2px, $pixels-bottom: 2px, $pixels-right: 2px) {
-  border-color: $green;
-  border-width: $pixels-top $pixels-left $pixels-bottom $pixels-right;
+  & {
+    border-color: $green;
+    border-width: $pixels-top $pixels-left $pixels-bottom $pixels-right;
+  }
 }
 
 @mixin font-size($size: 30px) {
-  font-size: $size;
+  & {
+    font-size: $size;
+  }
 }
 
 @mixin ml-r-auto {
-  margin-left: auto;
-  margin-right: auto;
+  & {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @mixin flex-jc-ic {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  & {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @mixin md($width, $height) {
-  @media (width >= 1024px) {
-    width: $width;
-    height: $height;
+  & {
+    @media (width >= 1024px) {
+      width: $width;
+      height: $height;
+    }
   }
 }
 
 @mixin sm($width, $height) {
-  @media (width < 640px), (width >= 640px) and (width < 1024px) {
-    width: $width;
-    height: $height;
+  & {
+    @media (width < 640px), (width >= 640px) and (width < 1024px) {
+      width: $width;
+      height: $height;
+    }
   }
 }

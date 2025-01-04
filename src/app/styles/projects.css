@@ -1,11 +1,10 @@
 .container {
   border-color: #a6e3a1;
   border-width: 2px 2px 2px 2px;
+}
+.container {
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 @media (width >= 1024px) {
   .container {
@@ -20,15 +19,24 @@
   }
 }
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
   margin-top: 10px;
   flex-direction: column;
 }
 
 .projectsTitle {
   font-size: 40px;
+}
+.projectsTitle {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.projectsTitle {
   border-color: #a6e3a1;
   border-width: 0px 2px 2px 2px;
 }
