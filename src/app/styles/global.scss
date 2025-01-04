@@ -28,7 +28,7 @@ $green: #a6e3a1;
 }
 
 @mixin sm($width, $height) {
-  @media (width < 640px), ((width >= 640px) and (width < 1024px)) {
+  @media (width < 640px), (width >= 640px) and (width < 1024px) {
     width: $width;
     height: $height;
   }
