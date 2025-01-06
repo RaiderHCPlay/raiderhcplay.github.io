@@ -1,14 +1,20 @@
 @use 'global';
 
+@include global.fade-down-animation;
+
+
 .container {
   @include global.green-border();
   @include global.ml-r-auto;
   @include global.md(700px, 300px);
   @include global.sm(300px, 400px);
   @include global.flex-jc-ic;
+
   & {
     margin-top: 10px;
     flex-direction: column;
+    animation: fade-down;
+    animation-duration: 1500ms;
   }
 }
 

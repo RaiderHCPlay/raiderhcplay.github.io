@@ -1,5 +1,19 @@
 $green: #a6e3a1;
 
+
+@mixin fade-down-animation {
+  @keyframes fade-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-2rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
 @mixin green-border($pixels-top: 2px, $pixels-left: 2px, $pixels-bottom: 2px, $pixels-right: 2px) {
   & {
     border-color: $green;
