@@ -6,7 +6,7 @@
 .container {
   @include global.green-border();
   @include global.ml-r-auto;
-  @include global.md(700px, 300px);
+  @include global.md(900px, 300px);
   @include global.sm(300px, 400px);
   @include global.flex-jc-ic;
 
@@ -25,15 +25,58 @@
   & {
     width: 180px;
     height: 60px;
-    margin-bottom: auto;
   }
 }
 
 .projects {
   & {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-around;
+    margin-top: auto;
+    width: 100%;
+    margin-bottom: auto;
+    @media (width >= 1024px) {
+      flex-direction: row;
+
+    }
+    @media (width < 640px), (width >= 640px) and (width < 1024px) {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+}
+
+.project {
+  @include global.flex-jc-ic;
+  @include global.green-border;
+
+  h1 {
+    & {
+      @media (width >= 1024px) {
+        @include global.font-size(25px);
+      }
+      @media (width < 640px), (width >= 640px) and (width < 1024px) {
+        @include global.font-size(20px);
+      }
+    }
+  }
+
+  article {
+    & {
+      padding-bottom: 5px;
+      @media (width >= 1024px) {
+        @include global.font-size(20px);
+      }
+      @media (width < 640px), (width >= 640px) and (width < 1024px) {
+        @include global.font-size(15px);
+      }
+    }
+  }
+
+  & {
+    padding: 0.5rem;
+    flex-direction: column;
     margin-top: auto;
     margin-bottom: auto;
   }

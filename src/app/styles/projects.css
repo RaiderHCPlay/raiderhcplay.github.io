@@ -18,7 +18,7 @@
 }
 @media (width >= 1024px) {
   .container {
-    width: 700px;
+    width: 900px;
     height: 300px;
   }
 }
@@ -55,13 +55,63 @@
 .projectsTitle {
   width: 180px;
   height: 60px;
-  margin-bottom: auto;
 }
 
 .projects {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-around;
+  margin-top: auto;
+  width: 100%;
+  margin-bottom: auto;
+}
+@media (width >= 1024px) {
+  .projects {
+    flex-direction: row;
+  }
+}
+@media (width < 640px), (width >= 640px) and (width < 1024px) {
+  .projects {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project {
+  border-color: #a6e3a1;
+  border-width: 2px 2px 2px 2px;
+}
+@media (width >= 1024px) {
+  .project h1 {
+    font-size: 25px;
+  }
+}
+@media (width < 640px), (width >= 640px) and (width < 1024px) {
+  .project h1 {
+    font-size: 20px;
+  }
+}
+.project article {
+  padding-bottom: 5px;
+}
+@media (width >= 1024px) {
+  .project article {
+    font-size: 20px;
+  }
+}
+@media (width < 640px), (width >= 640px) and (width < 1024px) {
+  .project article {
+    font-size: 15px;
+  }
+}
+.project {
+  padding: 0.5rem;
+  flex-direction: column;
   margin-top: auto;
   margin-bottom: auto;
 }
