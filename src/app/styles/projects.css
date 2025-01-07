@@ -18,14 +18,14 @@
 }
 @media (width >= 1024px) {
   .container {
-    width: 900px;
+    width: 1300px;
     height: 300px;
   }
 }
 @media (width < 640px), (width >= 640px) and (width < 1024px) {
   .container {
     width: 300px;
-    height: 400px;
+    height: 450px;
   }
 }
 .container {
@@ -87,14 +87,24 @@
   border-width: 2px 2px 2px 2px;
 }
 @media (width >= 1024px) {
-  .project h1 {
+  .project a {
     font-size: 25px;
   }
 }
 @media (width < 640px), (width >= 640px) and (width < 1024px) {
-  .project h1 {
+  .project a {
     font-size: 20px;
   }
+}
+.project a:hover {
+  color: #a6e3a1;
+}
+.project a:active {
+  color: #cba6f7;
+}
+.project .template {
+  display: flex;
+  flex-direction: row;
 }
 .project article {
   padding-bottom: 5px;
