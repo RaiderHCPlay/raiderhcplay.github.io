@@ -1,0 +1,19 @@
+@use 'global';
+
+@include global.fade-down-animation;
+
+.container {
+  @include global.green-border();
+  @include global.md(1200px, 800px);
+  @include global.sm(320px, 500px,);
+  @include global.ml-r-auto;
+
+  & {
+    margin-top: 10px;
+  }
+}
+
+.title {
+  @include global.green-border(0px, 2px, 2px, 2px);
+  @include global.font-size(40px);
+}
