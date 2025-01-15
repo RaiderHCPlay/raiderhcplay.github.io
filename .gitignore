@@ -1,5 +1,6 @@
 #IDE
-.idea/
+/.idea/
+/.vscode/
 
 #NEXT
 .next/
