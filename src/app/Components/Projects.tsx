@@ -15,16 +15,16 @@ export default function Projects() {
                         height={"0"}
                     />
                 </div>
-                <div className={"project"}>
-                    <a href={"https://github.com/RaiderHCPlay/userstyles"} target={"_blank"}>catppuccin userstyles</a>
-                    <article>Catppuccin userstyles</article>
-                    <Image
-                        src="https://wakatime.com/badge/user/16a607a2-a819-4ae5-b4fd-490342b99c3d/project/408f458f-9a85-4c09-9515-ce79383a0559.svg"
-                        alt="wakatime"
-                        width={"200"}
-                        height={"0"}
-                    />
-                </div>
+                {/*<div className={"project"}>*/}
+                {/*    <a href={"https://github.com/RaiderHCPlay/userstyles"} target={"_blank"}>catppuccin userstyles</a>*/}
+                {/*    <article>Catppuccin userstyles</article>*/}
+                {/*    <Image*/}
+                {/*        src="https://wakatime.com/badge/user/16a607a2-a819-4ae5-b4fd-490342b99c3d/project/408f458f-9a85-4c09-9515-ce79383a0559.svg"*/}
+                {/*        alt="wakatime"*/}
+                {/*        width={"200"}*/}
+                {/*        height={"0"}*/}
+                {/*    />*/}
+                {/*</div>*/}
                 <div className={"project"}>
                     <a className={"template"} href={"https://github.com/RaiderHCPlay/React-Sass-Typescript-Vite-template"} target={"_black"}>
                         <svg width="40px" height="40px" viewBox="0 -14 256 256" version="1.1"
