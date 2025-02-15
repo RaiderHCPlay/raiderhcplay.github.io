@@ -1,0 +1,21 @@
+@use 'global';
+
+
+.footer-container {
+  //flex justify-center bottom-0 left-0 right-0 p-4 relative animate-flip-up animate-delay-100 animate-duration[2000mx]
+  @include global.flex();
+  padding: 4rem;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  p {
+    font-size: 11px;
+    background-color: transparent;
+    @media (width >= 1024px) {
+      font-size: 20px;
+    }
+  }
+
+}

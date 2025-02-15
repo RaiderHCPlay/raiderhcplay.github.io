@@ -1,0 +1,15 @@
+@use 'global';
+
+.header-container {
+  @include global.md(100%, 65);
+  @include global.flex();
+  @include global.fade-down-animation;
+  height: 50px;
+  width: 100%;
+  background-color: #11111b;
+  img {
+    @include global.md(60, 60);
+    border-radius: 50px;
+  }
+}
+
