@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { useState } from 'react'
 import Link from 'next/link'
 import Buttons from '@/app/Components/Buttons'
+import '@/app/styles/header.scss';
 
 export default function Header() {
     const [mobileOptions, setMobileOptions] = useState(false)
@@ -12,7 +13,7 @@ export default function Header() {
         <>
             <header
                 className={
-                    'bg-[#11111b] w-full h-[50px] md:h-[65px] flex justify-center items-center animate-fade-down animate-delay-200 animate-duration-1500'
+                    'header-container'
                 }
             >
                 <Link href={'/'}>
@@ -23,7 +24,6 @@ export default function Header() {
                         alt={'Main Page'}
                         width={'45'}
                         height={'45'}
-                        className={'rounded-full md:w-[60px] md:h-[60px]'}
                     />
                 </Link>
                 <div

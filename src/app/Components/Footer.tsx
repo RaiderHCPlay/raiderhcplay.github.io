@@ -1,5 +1,6 @@
 'use client'
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
+import '@/app/styles/footer.scss';
 
 export default function Footer() {
     const [date, setDate] = useState<Date>()
@@ -11,13 +12,13 @@ export default function Footer() {
     return (
         <footer
             className={
-                'flex justify-center bottom-0 left-0 right-0 p-4 relative animate-flip-up animate-delay-100 animate-duration[2000mx]'
+                'footer-container'
             }
         >
             {date !== undefined && (
-                <h2 className={'text-[11px] md:text-xl'}>
-                    Copyright © 2024-{date.getFullYear()} Paweł Fabrycki
-                </h2>
+                <p>
+                    © {date.getFullYear()} Paweł Fabrycki
+                </p>
             )}
         </footer>
     )
